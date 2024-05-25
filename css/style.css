@@ -1,0 +1,123 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+}
+
+body {
+  background-color: #080710;
+  height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  color: aliceblue;
+  font-family: "Poppins", sans-serif;
+}
+
+input,
+button {
+
+  font-family: inherit;
+  border: none;
+  outline: none;
+}
+
+.poppins-regular {
+  font-family: "Poppins", sans-serif;
+  font-weight: 400;
+  font-style: normal;
+}
+
+.container {
+  width: 400px;
+  height: 500px;
+  background: rgba(255, 255, 255, 0.13);
+  backdrop-filter: blur(10px);
+  border-radius: 16px;
+  box-shadow: 0 4px 30px rgba(0, 0, 0, 0.1);
+  border: 1px solid rgba(255, 255, 255, 0.3);
+}
+
+.title {
+  font-size: 32px;
+  text-align: center;
+  margin-bottom: 20px;
+}
+
+.name {
+  margin-bottom: 19px;
+  font-size: 16px;
+}
+
+.circle {
+  position: relative;
+}
+
+.circle::after {
+  content: "";
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background: linear-gradient(99deg, #01579b, #29b6f6);
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: -90px;
+  right: 299px;
+}
+
+.circle::before {
+  content: "";
+  height: 200px;
+  width: 200px;
+  border-radius: 200px;
+  background: linear-gradient(253deg, #BF360C, #ffee58);
+  display: block;
+  position: absolute;
+  z-index: -1;
+  top: 389px;
+  right: -98px;
+}
+
+form {
+  margin: 50px 38px 38px 38px;
+}
+
+input {
+  width: 100%;
+  height: 50px;
+  padding: 10px;
+  border-radius: 5px;
+  background-color: rgba(255, 255, 255, 0.07);
+  color: #fff;
+  font-weight: 300;
+  margin-top: 8px;
+  font-weight: 500;
+}
+
+::placeholder {
+  color: #d9d3d3;
+  font-size: 14;
+}
+
+.input {
+  margin-bottom: 15px;
+}
+
+.label {
+  margin-bottom: 10px;
+}
+
+.btn {
+  height: 50px;
+  width: 100%;
+  margin-top: 25px;
+  border-radius: 5px;
+}
+
+.send {
+  width: 100%;
+  height: 100%;
+  font-size: 18px;
+  background-color: #fff;
+  color:#080710;
+}
