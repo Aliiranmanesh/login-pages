@@ -1,0 +1,55 @@
+* {
+    box-sizing: border-box;
+}
+
+body {
+    height: 100vh;
+    background: linear-gradient(155.9deg, rgb(255, 255, 255) 50%, rgb(55, 151, 199) 50%) fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+form {
+    height: 400px;
+    width: 300px;
+    border: 1px solid slateblue;
+    background-color: azure;
+    border-radius: 7px;
+
+}
+
+h2 {
+    text-align: center;
+    margin-bottom: 30px;
+}
+
+input {
+    width: 80%;
+    height: 40px;
+    text-align: center;
+    display: block;
+    margin: 20px auto;
+    border-radius: 20px;
+    border: 1px solid gainsboro;
+}
+
+input:focus {
+    outline: 0;
+}
+
+.log {
+    width: 40%;
+    background-color: aqua;
+}
+
+a {
+    text-decoration: none;
+}
+
+.signup-link {
+    text-align: center;
+    margin-top: 40%;
+
+}
