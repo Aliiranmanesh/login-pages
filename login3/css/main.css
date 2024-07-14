@@ -1,0 +1,45 @@
+* {
+    box-sizing: border-box;
+
+}
+body{
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+form{
+    width: 300px;
+    height:  fit-content;
+    border: 1px solid rebeccapurple;
+    border-radius: 5px;
+}
+input{
+    display: block;
+    width:80%;
+    margin: 20px auto;
+    height: 50px;
+    background-color: #ebe4e4;
+    text-align: center ;
+    border: 1px solid gainsboro;
+}
+input:focus{
+    outline: 9px;
+}
+.title{
+    text-align: center;
+    margin-top: 10px;
+}
+.sub{
+    background-color: #a4b1fd;
+}
+.fgot{
+    height: 50px;
+    width: 100%;
+    color: #bbc0da;
+    text-align: center;
+    background-color: #ebe4e4;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
