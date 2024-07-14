@@ -12,7 +12,6 @@ body {
   color: aliceblue;
   font-family: "Poppins", sans-serif;
 }
-
 input,
 button {
 
@@ -120,4 +119,5 @@ input {
   font-size: 18px;
   background-color: #fff;
   color:#080710;
+  
 }
